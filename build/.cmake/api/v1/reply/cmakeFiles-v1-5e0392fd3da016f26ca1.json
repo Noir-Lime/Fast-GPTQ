@@ -1,0 +1,348 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.26.3/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.26.3/CMakeCUDACompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDAInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/NVIDIA-CUDA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPython.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPythonLibs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeFindFrameworks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/share/cmake/pybind11/pybind11ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/share/cmake/pybind11/pybind11Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/share/cmake/pybind11/pybind11Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/share/cmake/pybind11/pybind11Common.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/share/cmake/pybind11/pybind11NewTools.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Torch/TorchConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Torch/TorchConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Caffe2ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Caffe2Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/utils.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/cuda.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDA.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/detect_cuda_version.cc"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/detect_cuda_compute_capabilities.cu"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/mkl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/mkldnn.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Caffe2Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Caffe2Targets-release.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindCUDAToolkit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/zhaoj/Work/Fast-GPTQ/build",
+		"source" : "/home/zhaoj/Work/Fast-GPTQ"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

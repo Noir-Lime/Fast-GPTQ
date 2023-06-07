@@ -1,0 +1,7 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - --cuda-path=/home/zhaoj/miniconda3/envs/GPTQ
+    - --cuda-gpu-arch=sm_86
+    - -L/home/zhaoj/miniconda3/envs/GPTQ/lib
+    - -I/home/zhaoj/miniconda3/envs/GPTQ/include

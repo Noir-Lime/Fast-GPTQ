@@ -1,0 +1,1237 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 5.15.90.1-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/zhaoj/miniconda3/envs/GPTQ/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/3.26.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:75 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the CUDA compiler is NVIDIA using "" matched "nvcc: NVIDIA \\(R\\) Cuda compiler driver":
+      nvcc: NVIDIA (R) Cuda compiler driver
+      Copyright (c) 2005-2022 NVIDIA Corporation
+      Built on Tue_May__3_18:49:52_PDT_2022
+      Cuda compilation tools, release 11.7, V11.7.64
+      Build cuda_11.7.r11.7/compiler.31294372_0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler: /home/zhaoj/miniconda3/envs/GPTQ/bin/nvcc 
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      #$ _NVVM_BRANCH_=nvvm
+      #$ _SPACE_= 
+      #$ _CUDART_=cudart
+      #$ _HERE_=/home/zhaoj/miniconda3/envs/GPTQ/bin
+      #$ _THERE_=/home/zhaoj/miniconda3/envs/GPTQ/bin
+      #$ _TARGET_SIZE_=
+      #$ _TARGET_DIR_=
+      #$ _TARGET_SIZE_=64
+      #$ TOP=/home/zhaoj/miniconda3/envs/GPTQ/bin/..
+      #$ NVVMIR_LIBRARY_DIR=/home/zhaoj/miniconda3/envs/GPTQ/bin/../nvvm/libdevice
+      #$ LD_LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib:
+      #$ PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../nvvm/bin:/home/zhaoj/miniconda3/envs/GPTQ/bin:/usr/lib/ccache:/home/zhaoj/.pyenv/shims:/home/zhaoj/.local/share/pnpm:/home/zhaoj/.bun/bin:/home/zhaoj/.vscode-server-insiders/bin/506cd5056d875ccdbea2e9a41ba7b9f19103d599/bin/remote-cli:/home/zhaoj/.pyenv/bin:/usr/lib/ccache:/home/zhaoj/.nvm/versions/node/v16.20.0/bin:/home/zhaoj/miniconda3/envs/GPTQ/bin:/home/zhaoj/miniconda3/condabin:/bin:/home/zhaoj/.local/share/pnpm:/home/zhaoj/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/snap/bin:/mnt/c/Users/zhaoj/AppData/Local/Programs/Microsoft\\ VS\\ Code/bin:/mnt/c/Users/zhaoj/AppData/Local/Programs/Microsoft\\ VS\\ Code/bin
+      #$ INCLUDES="-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"  
+      #$ LIBRARIES=  "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib"
+      #$ CUDAFE_FLAGS=
+      #$ PTXAS_FLAGS=
+      #$ rm tmp/a_dlink.reg.c
+      #$ gcc -D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=7 -D__CUDACC_VER_BUILD__=64 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=7 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o "tmp/CMakeCUDACompilerId.cpp1.ii" 
+      #$ cicc --c++17 --gnu_version=110200 --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/3.26.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed   -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"
+      #$ ptxas -arch=sm_52 -m64  "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_52.cubin" 
+      #$ fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" 
+      #$ gcc -D__CUDA_ARCH_LIST__=520 -E -x c++ -D__CUDACC__ -D__NVCC__  "-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=7 -D__CUDACC_VER_BUILD__=64 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=7 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o "tmp/CMakeCUDACompilerId.cpp4.ii" 
+      #$ cudafe++ --c++17 --gnu_version=110200 --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/3.26.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed  --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" 
+      #$ gcc -D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS "-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"   -m64 "tmp/CMakeCUDACompilerId.cudafe1.cpp" -o "tmp/CMakeCUDACompilerId.o" 
+      #$ nvlink -m64 --arch=sm_52 --register-link-binaries="tmp/a_dlink.reg.c"    "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.o"  -lcudadevrt  -o "tmp/a_dlink.sm_52.cubin" --host-ccbin "gcc"
+      #$ fatbinary --create="tmp/a_dlink.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -link "--image3=kind=elf,sm=52,file=tmp/a_dlink.sm_52.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" 
+      #$ gcc -D__CUDA_ARCH_LIST__=520 -c -x c++ -DFATBINFILE="\\"tmp/a_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"tmp/a_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=7 -D__CUDACC_VER_BUILD__=64 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=7 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -m64 "/home/zhaoj/miniconda3/envs/GPTQ/bin/crt/link.stub" -o "tmp/a_dlink.o" 
+      #$ g++ -D__CUDA_ARCH_LIST__=520 -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" 
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.out"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/3.26.3/CompilerIdCUDA/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:523 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA nvcc implicit link information:
+        found 'PATH=' string: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../nvvm/bin:/home/zhaoj/miniconda3/envs/GPTQ/bin:/usr/lib/ccache:/home/zhaoj/.pyenv/shims:/home/zhaoj/.local/share/pnpm:/home/zhaoj/.bun/bin:/home/zhaoj/.vscode-server-insiders/bin/506cd5056d875ccdbea2e9a41ba7b9f19103d599/bin/remote-cli:/home/zhaoj/.pyenv/bin:/usr/lib/ccache:/home/zhaoj/.nvm/versions/node/v16.20.0/bin:/home/zhaoj/miniconda3/envs/GPTQ/bin:/home/zhaoj/miniconda3/condabin:/bin:/home/zhaoj/.local/share/pnpm:/home/zhaoj/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/snap/bin:/mnt/c/Users/zhaoj/AppData/Local/Programs/Microsoft\\ VS\\ Code/bin:/mnt/c/Users/zhaoj/AppData/Local/Programs/Microsoft\\ VS\\ Code/bin]
+        found 'LIBRARIES=' string: ["-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib"]
+        considering line: [#$ rm tmp/a_dlink.reg.c]
+        considering line: [gcc -D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=7 -D__CUDACC_VER_BUILD__=64 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=7 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o "tmp/CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [cicc --c++17 --gnu_version=110200 --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/3.26.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed   -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"]
+        considering line: [ptxas -arch=sm_52 -m64  "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_52.cubin" ]
+        considering line: [fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" ]
+        considering line: [gcc -D__CUDA_ARCH_LIST__=520 -E -x c++ -D__CUDACC__ -D__NVCC__  "-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=7 -D__CUDACC_VER_BUILD__=64 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=7 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [cudafe++ --c++17 --gnu_version=110200 --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/3.26.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed  --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [gcc -D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS "-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"   -m64 "tmp/CMakeCUDACompilerId.cudafe1.cpp" -o "tmp/CMakeCUDACompilerId.o" ]
+        considering line: [nvlink -m64 --arch=sm_52 --register-link-binaries="tmp/a_dlink.reg.c"    "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.o"  -lcudadevrt  -o "tmp/a_dlink.sm_52.cubin" --host-ccbin "gcc"]
+          ignoring nvlink line
+        considering line: [fatbinary --create="tmp/a_dlink.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -link "--image3=kind=elf,sm=52,file=tmp/a_dlink.sm_52.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" ]
+        considering line: [gcc -D__CUDA_ARCH_LIST__=520 -c -x c++ -DFATBINFILE="\\"tmp/a_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"tmp/a_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=7 -D__CUDACC_VER_BUILD__=64 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=7 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -m64 "/home/zhaoj/miniconda3/envs/GPTQ/bin/crt/link.stub" -o "tmp/a_dlink.o" ]
+        considering line: [g++ -D__CUDA_ARCH_LIST__=520 -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" ]
+          extracted link line: [g++ -D__CUDA_ARCH_LIST__=520 -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" ]
+        considering line: []
+        extracted link launcher name: [g++]
+        found link launcher absolute path: [/home/zhaoj/miniconda3/envs/GPTQ/bin/g++]
+      
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld g++ -D__CUDA_ARCH_LIST__=520 -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" ]
+          arg [cuda-fake-ld] ==> ignore
+          arg [g++] ==> ignore
+          arg [-D__CUDA_ARCH_LIST__=520] ==> ignore
+          arg [-m64] ==> ignore
+          arg [-Wl,--start-group] ==> ignore
+          arg [tmp/a_dlink.o] ==> ignore
+          arg [tmp/CMakeCUDACompilerId.o] ==> ignore
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib]
+          arg [-lcudadevrt] ==> lib [cudadevrt]
+          arg [-lcudart_static] ==> lib [cudart_static]
+          arg [-lrt] ==> lib [rt]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ldl] ==> lib [dl]
+          arg [-Wl,--end-group] ==> ignore
+          arg [-o] ==> ignore
+          arg [a.out] ==> ignore
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib]
+        implicit libs: [cudadevrt;cudart_static;rt;pthread;dl]
+        implicit objs: []
+        implicit dirs: [/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs;/home/zhaoj/miniconda3/envs/GPTQ/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:579 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'PATH=' string: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../nvvm/bin:/home/zhaoj/miniconda3/envs/GPTQ/bin:/usr/lib/ccache:/home/zhaoj/.pyenv/shims:/home/zhaoj/.local/share/pnpm:/home/zhaoj/.bun/bin:/home/zhaoj/.vscode-server-insiders/bin/506cd5056d875ccdbea2e9a41ba7b9f19103d599/bin/remote-cli:/home/zhaoj/.pyenv/bin:/usr/lib/ccache:/home/zhaoj/.nvm/versions/node/v16.20.0/bin:/home/zhaoj/miniconda3/envs/GPTQ/bin:/home/zhaoj/miniconda3/condabin:/bin:/home/zhaoj/.local/share/pnpm:/home/zhaoj/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/snap/bin:/mnt/c/Users/zhaoj/AppData/Local/Programs/Microsoft\\ VS\\ Code/bin:/mnt/c/Users/zhaoj/AppData/Local/Programs/Microsoft\\ VS\\ Code/bin]
+        found 'LIBRARIES=' string: ["-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib"]
+        considering line: [#$ rm tmp/a_dlink.reg.c]
+        considering line: [gcc -D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=7 -D__CUDACC_VER_BUILD__=64 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=7 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o "tmp/CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [cicc --c++17 --gnu_version=110200 --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/3.26.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed   -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"]
+        considering line: [ptxas -arch=sm_52 -m64  "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_52.cubin" ]
+        considering line: [fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" ]
+        considering line: [gcc -D__CUDA_ARCH_LIST__=520 -E -x c++ -D__CUDACC__ -D__NVCC__  "-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=7 -D__CUDACC_VER_BUILD__=64 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=7 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [cudafe++ --c++17 --gnu_version=110200 --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/3.26.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed  --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [gcc -D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS "-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"   -m64 "tmp/CMakeCUDACompilerId.cudafe1.cpp" -o "tmp/CMakeCUDACompilerId.o" ]
+        considering line: [nvlink -m64 --arch=sm_52 --register-link-binaries="tmp/a_dlink.reg.c"    "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.o"  -lcudadevrt  -o "tmp/a_dlink.sm_52.cubin" --host-ccbin "gcc"]
+          ignoring nvlink line
+        considering line: [fatbinary --create="tmp/a_dlink.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -link "--image3=kind=elf,sm=52,file=tmp/a_dlink.sm_52.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" ]
+        considering line: [gcc -D__CUDA_ARCH_LIST__=520 -c -x c++ -DFATBINFILE="\\"tmp/a_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"tmp/a_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=7 -D__CUDACC_VER_BUILD__=64 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=7 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -m64 "/home/zhaoj/miniconda3/envs/GPTQ/bin/crt/link.stub" -o "tmp/a_dlink.o" ]
+        considering line: [g++ -D__CUDA_ARCH_LIST__=520 -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" ]
+          extracted link line: [g++ -D__CUDA_ARCH_LIST__=520 -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" ]
+        considering line: []
+        extracted link launcher name: [g++]
+        found link launcher absolute path: [/home/zhaoj/miniconda3/envs/GPTQ/bin/g++]
+        found 'INCLUDES=' string: ["-I/home/zhaoj/miniconda3/envs/GPTQ/bin/../include"  ]
+      
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld g++ -D__CUDA_ARCH_LIST__=520 -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs" "-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" ]
+          arg [cuda-fake-ld] ==> ignore
+          arg [g++] ==> ignore
+          arg [-D__CUDA_ARCH_LIST__=520] ==> ignore
+          arg [-m64] ==> ignore
+          arg [-Wl,--start-group] ==> ignore
+          arg [tmp/a_dlink.o] ==> ignore
+          arg [tmp/CMakeCUDACompilerId.o] ==> ignore
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib]
+          arg [-lcudadevrt] ==> lib [cudadevrt]
+          arg [-lcudart_static] ==> lib [cudart_static]
+          arg [-lrt] ==> lib [rt]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ldl] ==> lib [dl]
+          arg [-Wl,--end-group] ==> ignore
+          arg [-o] ==> ignore
+          arg [a.out] ==> ignore
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/stubs] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib]
+        implicit libs: [cudadevrt;cudart_static;rt;pthread;dl]
+        implicit objs: []
+        implicit dirs: [/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs;/home/zhaoj/miniconda3/envs/GPTQ/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-LwGtqL"
+      binary: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-LwGtqL"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-LwGtqL
+        
+        Run Build Command(s):/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_25178/fast && /bin/gmake  -f CMakeFiles/cmTC_25178.dir/build.make CMakeFiles/cmTC_25178.dir/build
+        gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-LwGtqL'
+        Building CXX object CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++   -v -o CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o -c /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs
+        COLLECT_GCC=/home/zhaoj/miniconda3/envs/GPTQ/bin/c++
+        Target: x86_64-conda-linux-gnu
+        Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.0 (Anaconda gcc) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25178.dir/'
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/cc1plus -quiet -v -iprefix /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/ -isysroot /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_25178.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccXBV3zU.s
+        GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include"
+        ignoring nonexistent directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: dcd220e6e6985dc6323f6310e48ad8dd
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25178.dir/'
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccXBV3zU.s
+        GNU assembler version 2.38 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.38
+        COMPILER_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_25178
+        /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25178.dir/link.txt --verbose=1
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++  -v CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_25178 
+        Reading specs from /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs
+        COLLECT_GCC=/home/zhaoj/miniconda3/envs/GPTQ/bin/c++
+        COLLECT_LTO_WRAPPER=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.0 (Anaconda gcc) 
+        COMPILER_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25178' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_25178.'
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/collect2 -plugin /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8G9J9P.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_25178 /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/zhaoj/miniconda3/envs/GPTQ/lib CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25178' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_25178.'
+        gmake[1]: Leaving directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-LwGtqL'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0/backward;/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include;/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-LwGtqL]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_25178/fast && /bin/gmake  -f CMakeFiles/cmTC_25178.dir/build.make CMakeFiles/cmTC_25178.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-LwGtqL']
+        ignore line: [Building CXX object CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/zhaoj/miniconda3/envs/GPTQ/bin/c++   -v -o CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o -c /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs]
+        ignore line: [COLLECT_GCC=/home/zhaoj/miniconda3/envs/GPTQ/bin/c++]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.0 (Anaconda gcc) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25178.dir/']
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/cc1plus -quiet -v -iprefix /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/ -isysroot /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_25178.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccXBV3zU.s]
+        ignore line: [GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: dcd220e6e6985dc6323f6310e48ad8dd]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25178.dir/']
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccXBV3zU.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.38]
+        ignore line: [COMPILER_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_25178]
+        ignore line: [/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25178.dir/link.txt --verbose=1]
+        ignore line: [/home/zhaoj/miniconda3/envs/GPTQ/bin/c++  -v CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_25178 ]
+        ignore line: [Reading specs from /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs]
+        ignore line: [COLLECT_GCC=/home/zhaoj/miniconda3/envs/GPTQ/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.0 (Anaconda gcc) ]
+        ignore line: [COMPILER_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25178' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_25178.']
+        link line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/collect2 -plugin /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8G9J9P.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_25178 /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/zhaoj/miniconda3/envs/GPTQ/lib CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc8G9J9P.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_25178] ==> ignore
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o]
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o]
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o] ==> obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-rpath] ==> ignore
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/lib] ==> ignore
+          arg [CMakeFiles/cmTC_25178.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o] ==> obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o]
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+        collapse obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64/crt1.o]
+        collapse obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64/crti.o]
+        collapse obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o]
+        collapse obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o]
+        collapse obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64/crtn.o]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/lib64]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/lib64]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64/crt1.o;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64/crti.o;/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o;/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64/crtn.o]
+        implicit dirs: [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0;/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/lib64;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/lib64;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/lib;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/lib;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-nSFiXA"
+      binary: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-nSFiXA"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: ""
+      CMAKE_CUDA_FLAGS_DEBUG: "-g"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-nSFiXA
+        
+        Run Build Command(s):/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_60eb1/fast && /bin/gmake  -f CMakeFiles/cmTC_60eb1.dir/build.make CMakeFiles/cmTC_60eb1.dir/build
+        gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-nSFiXA'
+        Building CUDA object CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/nvcc -forward-unknown-to-host-compiler   --generate-code=arch=compute_52,code=[compute_52,sm_52]   -Xcompiler=-v -MD -MT CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o -MF CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o.d -x cu -c /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o
+        Reading specs from /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs
+        COLLECT_GCC=gcc
+        Target: x86_64-conda-linux-gnu
+        Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.0 (Anaconda gcc) 
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=7' '-D' '__CUDACC_VER_BUILD__=64' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=7' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007aff_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/'
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/cc1plus -E -quiet -v -I /home/zhaoj/miniconda3/envs/GPTQ/bin/../include -iprefix /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/ -isysroot /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D __CUDA_ARCH_LIST__=520 -D CUDA_DOUBLE_MATH_FUNCTIONS -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=11 -D __CUDACC_VER_MINOR__=7 -D __CUDACC_VER_BUILD__=64 -D __CUDA_API_VER_MAJOR__=11 -D __CUDA_API_VER_MINOR__=7 -D __NVCC_DIAG_PRAGMA_SUPPORT__=1 -include cuda_runtime.h /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_00007aff_00000000-7_CMakeCUDACompilerABI.cpp1.ii -m64 -mtune=generic -march=x86-64 -dumpdir /tmp/ -dumpbase tmpxft_00007aff_00000000-7_CMakeCUDACompilerABI.cpp1.cu -dumpbase-ext .cu
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include"
+        ignoring nonexistent directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../include
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        COMPILER_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=7' '-D' '__CUDACC_VER_BUILD__=64' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=7' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007aff_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/tmpxft_00007aff_00000000-7_CMakeCUDACompilerABI.cpp1.'
+        Reading specs from /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs
+        COLLECT_GCC=gcc
+        Target: x86_64-conda-linux-gnu
+        Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.0 (Anaconda gcc) 
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH_LIST__=520' '-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=7' '-D' '__CUDACC_VER_BUILD__=64' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=7' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007aff_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/'
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/cc1plus -E -quiet -v -I /home/zhaoj/miniconda3/envs/GPTQ/bin/../include -iprefix /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/ -isysroot /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -D __CUDA_ARCH_LIST__=520 -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=11 -D __CUDACC_VER_MINOR__=7 -D __CUDACC_VER_BUILD__=64 -D __CUDA_API_VER_MAJOR__=11 -D __CUDA_API_VER_MINOR__=7 -D __NVCC_DIAG_PRAGMA_SUPPORT__=1 -include cuda_runtime.h /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_00007aff_00000000-5_CMakeCUDACompilerABI.cpp4.ii -m64 -mtune=generic -march=x86-64 -dumpdir /tmp/ -dumpbase tmpxft_00007aff_00000000-5_CMakeCUDACompilerABI.cpp4.cu -dumpbase-ext .cu
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include"
+        ignoring nonexistent directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../include
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        COMPILER_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH_LIST__=520' '-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=7' '-D' '__CUDACC_VER_BUILD__=64' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=7' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007aff_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/tmpxft_00007aff_00000000-5_CMakeCUDACompilerABI.cpp4.'
+        Reading specs from /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs
+        COLLECT_GCC=gcc
+        Target: x86_64-conda-linux-gnu
+        Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.0 (Anaconda gcc) 
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-m64' '-o' 'CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60eb1.dir/'
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/cc1plus -quiet -v -I /home/zhaoj/miniconda3/envs/GPTQ/bin/../include -iprefix /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/ -isysroot /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D __CUDA_ARCH_LIST__=520 -D CUDA_DOUBLE_MATH_FUNCTIONS /tmp/tmpxft_00007aff_00000000-6_CMakeCUDACompilerABI.cudafe1.cpp -quiet -dumpdir CMakeFiles/cmTC_60eb1.dir/ -dumpbase CMakeCUDACompilerABI.cu.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -version -o /tmp/ccb1MKgw.s
+        GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include"
+        ignoring nonexistent directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed"
+        ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../include
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: dcd220e6e6985dc6323f6310e48ad8dd
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-m64' '-o' 'CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60eb1.dir/'
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v -I /home/zhaoj/miniconda3/envs/GPTQ/bin/../include --64 -o CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o /tmp/ccb1MKgw.s
+        GNU assembler version 2.38 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.38
+        COMPILER_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-m64' '-o' 'CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.'
+        Linking CUDA executable cmTC_60eb1
+        /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60eb1.dir/link.txt --verbose=1
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/g++  -v CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o -o cmTC_60eb1  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs" -L"/home/zhaoj/miniconda3/envs/GPTQ/lib"
+        Reading specs from /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs
+        COLLECT_GCC=/home/zhaoj/miniconda3/envs/GPTQ/bin/g++
+        COLLECT_LTO_WRAPPER=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.0 (Anaconda gcc) 
+        COMPILER_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60eb1' '-L/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs' '-L/home/zhaoj/miniconda3/envs/GPTQ/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_60eb1.'
+         /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/collect2 -plugin /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8maDD5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_60eb1 /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o -L/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs -L/home/zhaoj/miniconda3/envs/GPTQ/lib -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/zhaoj/miniconda3/envs/GPTQ/lib CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60eb1' '-L/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs' '-L/home/zhaoj/miniconda3/envs/GPTQ/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_60eb1.'
+        gmake[1]: Leaving directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-nSFiXA'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../include]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include]
+          add: [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../include] ==> [/home/zhaoj/miniconda3/envs/GPTQ/include]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include]
+        collapse include dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/zhaoj/miniconda3/envs/GPTQ/include;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0/backward;/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include;/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-nSFiXA]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_60eb1/fast && /bin/gmake  -f CMakeFiles/cmTC_60eb1.dir/build.make CMakeFiles/cmTC_60eb1.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-nSFiXA']
+        ignore line: [Building CUDA object CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o]
+        ignore line: [/home/zhaoj/miniconda3/envs/GPTQ/bin/nvcc -forward-unknown-to-host-compiler   --generate-code=arch=compute_52 code=[compute_52 sm_52]   -Xcompiler=-v -MD -MT CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o -MF CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o.d -x cu -c /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o]
+        ignore line: [Reading specs from /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs]
+        ignore line: [COLLECT_GCC=gcc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.0 (Anaconda gcc) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=7' '-D' '__CUDACC_VER_BUILD__=64' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=7' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007aff_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/']
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/cc1plus -E -quiet -v -I /home/zhaoj/miniconda3/envs/GPTQ/bin/../include -iprefix /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/ -isysroot /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D __CUDA_ARCH_LIST__=520 -D CUDA_DOUBLE_MATH_FUNCTIONS -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=11 -D __CUDACC_VER_MINOR__=7 -D __CUDACC_VER_BUILD__=64 -D __CUDA_API_VER_MAJOR__=11 -D __CUDA_API_VER_MINOR__=7 -D __NVCC_DIAG_PRAGMA_SUPPORT__=1 -include cuda_runtime.h /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_00007aff_00000000-7_CMakeCUDACompilerABI.cpp1.ii -m64 -mtune=generic -march=x86-64 -dumpdir /tmp/ -dumpbase tmpxft_00007aff_00000000-7_CMakeCUDACompilerABI.cpp1.cu -dumpbase-ext .cu]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../include]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [COMPILER_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=7' '-D' '__CUDACC_VER_BUILD__=64' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=7' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007aff_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/tmpxft_00007aff_00000000-7_CMakeCUDACompilerABI.cpp1.']
+        ignore line: [Reading specs from /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs]
+        ignore line: [COLLECT_GCC=gcc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.0 (Anaconda gcc) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH_LIST__=520' '-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=7' '-D' '__CUDACC_VER_BUILD__=64' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=7' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007aff_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/']
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/cc1plus -E -quiet -v -I /home/zhaoj/miniconda3/envs/GPTQ/bin/../include -iprefix /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/ -isysroot /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -D __CUDA_ARCH_LIST__=520 -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=11 -D __CUDACC_VER_MINOR__=7 -D __CUDACC_VER_BUILD__=64 -D __CUDA_API_VER_MAJOR__=11 -D __CUDA_API_VER_MINOR__=7 -D __NVCC_DIAG_PRAGMA_SUPPORT__=1 -include cuda_runtime.h /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_00007aff_00000000-5_CMakeCUDACompilerABI.cpp4.ii -m64 -mtune=generic -march=x86-64 -dumpdir /tmp/ -dumpbase tmpxft_00007aff_00000000-5_CMakeCUDACompilerABI.cpp4.cu -dumpbase-ext .cu]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../include]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [COMPILER_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH_LIST__=520' '-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=7' '-D' '__CUDACC_VER_BUILD__=64' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=7' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007aff_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/tmpxft_00007aff_00000000-5_CMakeCUDACompilerABI.cpp4.']
+        ignore line: [Reading specs from /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs]
+        ignore line: [COLLECT_GCC=gcc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.0 (Anaconda gcc) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-m64' '-o' 'CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60eb1.dir/']
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/cc1plus -quiet -v -I /home/zhaoj/miniconda3/envs/GPTQ/bin/../include -iprefix /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/ -isysroot /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D __CUDA_ARCH_LIST__=520 -D CUDA_DOUBLE_MATH_FUNCTIONS /tmp/tmpxft_00007aff_00000000-6_CMakeCUDACompilerABI.cudafe1.cpp -quiet -dumpdir CMakeFiles/cmTC_60eb1.dir/ -dumpbase CMakeCUDACompilerABI.cu.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -version -o /tmp/ccb1MKgw.s]
+        ignore line: [GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../include]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include]
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: dcd220e6e6985dc6323f6310e48ad8dd]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-m64' '-o' 'CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60eb1.dir/']
+        ignore line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v -I /home/zhaoj/miniconda3/envs/GPTQ/bin/../include --64 -o CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o /tmp/ccb1MKgw.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.38]
+        ignore line: [COMPILER_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-I' '/home/zhaoj/miniconda3/envs/GPTQ/bin/../include' '-m64' '-o' 'CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.']
+        ignore line: [Linking CUDA executable cmTC_60eb1]
+        ignore line: [/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60eb1.dir/link.txt --verbose=1]
+        ignore line: [/home/zhaoj/miniconda3/envs/GPTQ/bin/g++  -v CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o -o cmTC_60eb1  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs" -L"/home/zhaoj/miniconda3/envs/GPTQ/lib"]
+        ignore line: [Reading specs from /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs]
+        ignore line: [COLLECT_GCC=/home/zhaoj/miniconda3/envs/GPTQ/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.0 (Anaconda gcc) ]
+        ignore line: [COMPILER_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60eb1' '-L/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs' '-L/home/zhaoj/miniconda3/envs/GPTQ/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_60eb1.']
+        link line: [ /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/collect2 -plugin /home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8maDD5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_60eb1 /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o -L/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs -L/home/zhaoj/miniconda3/envs/GPTQ/lib -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64 -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/zhaoj/miniconda3/envs/GPTQ/lib CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o /home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/zhaoj/miniconda3/envs/GPTQ/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc8maDD5.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_60eb1] ==> ignore
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o]
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o]
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o] ==> obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/lib] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/lib]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-rpath] ==> ignore
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/lib] ==> ignore
+          arg [CMakeFiles/cmTC_60eb1.dir/CMakeCUDACompilerABI.cu.o] ==> ignore
+          arg [-lcudadevrt] ==> lib [cudadevrt]
+          arg [-lcudart_static] ==> lib [cudart_static]
+          arg [-lrt] ==> lib [rt]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ldl] ==> lib [dl]
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o] ==> obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o]
+          arg [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+        collapse obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64/crt1.o]
+        collapse obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64/crti.o]
+        collapse obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o]
+        collapse obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o]
+        collapse obj [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64/crtn.o]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/lib] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc] ==> [/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/lib64]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/lib64]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/zhaoj/miniconda3/envs/GPTQ/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [cudadevrt;cudart_static;rt;pthread;dl;stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64/crt1.o;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64/crti.o;/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o;/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64/crtn.o]
+        implicit dirs: [/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs;/home/zhaoj/miniconda3/envs/GPTQ/lib;/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0;/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/lib64;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/lib64;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/lib;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/lib;/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/share/cmake/pybind11/pybind11Common.cmake:268 (check_cxx_compiler_flag)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/share/cmake/pybind11/pybind11Common.cmake:310 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/share/cmake/pybind11/pybind11Common.cmake:376 (_pybind11_generate_lto)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/share/cmake/pybind11/pybind11Config.cmake:248 (include)"
+      - "CMakeLists.txt:39 (find_package)"
+    checks:
+      - "Performing Test HAS_FLTO"
+    directories:
+      source: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-zbU9Xs"
+      binary: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-zbU9Xs"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_ENABLE_EXPORTS: "ON"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAS_FLTO"
+      cached: true
+      stdout: |
+        Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-zbU9Xs
+        
+        Run Build Command(s):/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_ad553/fast && /bin/gmake  -f CMakeFiles/cmTC_ad553.dir/build.make CMakeFiles/cmTC_ad553.dir/build
+        gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-zbU9Xs'
+        Building CXX object CMakeFiles/cmTC_ad553.dir/src.cxx.o
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++ -DHAS_FLTO -DcmTC_ad553_EXPORTS  -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_ad553.dir/src.cxx.o -c /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-zbU9Xs/src.cxx
+        Linking CXX executable cmTC_ad553
+        /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad553.dir/link.txt --verbose=1
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++ -Wl,--export-dynamic -rdynamic CMakeFiles/cmTC_ad553.dir/src.cxx.o -o cmTC_ad553  -flto 
+        gmake[1]: Leaving directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-zbU9Xs'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/cuda.cmake:81 (try_run)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Caffe2Config.cmake:88 (include)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Torch/TorchConfig.cmake:68 (find_package)"
+      - "CMakeLists.txt:55 (find_package)"
+    directories:
+      source: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp"
+      binary: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_ENABLE_EXPORTS: "ON"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/../Modules_CUDA_fix"
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_efce1/fast && /bin/gmake  -f CMakeFiles/cmTC_efce1.dir/build.make CMakeFiles/cmTC_efce1.dir/build
+        gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_efce1.dir/detect_cuda_version.cc.o
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++ -DcmTC_efce1_EXPORTS -I/home/zhaoj/miniconda3/envs/GPTQ/include  -o CMakeFiles/cmTC_efce1.dir/detect_cuda_version.cc.o -c /home/zhaoj/Work/Fast-GPTQ/build/detect_cuda_version.cc
+        Linking CXX executable cmTC_efce1
+        /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efce1.dir/link.txt --verbose=1
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++ -Wl,--export-dynamic -rdynamic CMakeFiles/cmTC_efce1.dir/detect_cuda_version.cc.o -o cmTC_efce1  -Wl,-rpath,/home/zhaoj/miniconda3/envs/GPTQ/lib /home/zhaoj/miniconda3/envs/GPTQ/lib/libcudart.so 
+        gmake[1]: Leaving directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "run_result"
+      cached: true
+      stdout: |
+        11.7
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake:106 (try_run)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake:166 (CUDA_DETECT_INSTALLED_GPUS)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/utils.cmake:401 (cuda_select_nvcc_arch_flags)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/cuda.cmake:362 (torch_cuda_get_nvcc_gencode_flag)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Caffe2Config.cmake:88 (include)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Torch/TorchConfig.cmake:68 (find_package)"
+      - "CMakeLists.txt:55 (find_package)"
+    directories:
+      source: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp"
+      binary: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: " --ptxas-options=-v"
+      CMAKE_CUDA_FLAGS_DEBUG: "-g"
+      CMAKE_ENABLE_EXPORTS: "ON"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/../Modules_CUDA_fix"
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_e2efd/fast && /bin/gmake  -f CMakeFiles/cmTC_e2efd.dir/build.make CMakeFiles/cmTC_e2efd.dir/build
+        gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp'
+        Building CUDA object CMakeFiles/cmTC_e2efd.dir/detect_cuda_compute_capabilities.cu.o
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/nvcc -forward-unknown-to-host-compiler -DcmTC_e2efd_EXPORTS  --ptxas-options=-v  --generate-code=arch=compute_52,code=[compute_52,sm_52] -MD -MT CMakeFiles/cmTC_e2efd.dir/detect_cuda_compute_capabilities.cu.o -MF CMakeFiles/cmTC_e2efd.dir/detect_cuda_compute_capabilities.cu.o.d -x cu -c /home/zhaoj/Work/Fast-GPTQ/build/detect_cuda_compute_capabilities.cu -o CMakeFiles/cmTC_e2efd.dir/detect_cuda_compute_capabilities.cu.o
+        ptxas info    : 0 bytes gmem
+        Linking CUDA executable cmTC_e2efd
+        /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2efd.dir/link.txt --verbose=1
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/g++ -Wl,--export-dynamic @CMakeFiles/cmTC_e2efd.dir/objects1.rsp -o cmTC_e2efd @CMakeFiles/cmTC_e2efd.dir/linkLibs.rsp -L"/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs" -L"/home/zhaoj/miniconda3/envs/GPTQ/lib"
+        gmake[1]: Leaving directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "run_result"
+      cached: true
+      stdout: |
+        8.6 
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindCUDAToolkit.cmake:1009 (find_package)"
+      - "CMakeLists.txt:59 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-eO1tHp"
+      binary: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-eO1tHp"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "OFF"
+      CMAKE_CXX_FLAGS: " -D_GLIBCXX_USE_CXX11_ABI=0"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_ENABLE_EXPORTS: "ON"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/../Modules_CUDA_fix"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-eO1tHp
+        
+        Run Build Command(s):/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_89094/fast && /bin/gmake  -f CMakeFiles/cmTC_89094.dir/build.make CMakeFiles/cmTC_89094.dir/build
+        gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-eO1tHp'
+        Building CXX object CMakeFiles/cmTC_89094.dir/src.cxx.o
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD -DcmTC_89094_EXPORTS  -D_GLIBCXX_USE_CXX11_ABI=0  -o CMakeFiles/cmTC_89094.dir/src.cxx.o -c /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-eO1tHp/src.cxx
+        Linking CXX executable cmTC_89094
+        /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89094.dir/link.txt --verbose=1
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++  -D_GLIBCXX_USE_CXX11_ABI=0  -Wl,--export-dynamic -rdynamic CMakeFiles/cmTC_89094.dir/src.cxx.o -o cmTC_89094 
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_89094.dir/src.cxx.o: in function `main':
+        src.cxx:(.text+0x2d): undefined reference to `pthread_create'
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.cxx:(.text+0x39): undefined reference to `pthread_detach'
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.cxx:(.text+0x45): undefined reference to `pthread_cancel'
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.cxx:(.text+0x56): undefined reference to `pthread_join'
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.cxx:(.text+0x6a): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_89094.dir/build.make:99: cmTC_89094] Error 1
+        gmake[1]: Leaving directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-eO1tHp'
+        gmake: *** [Makefile:127: cmTC_89094/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindCUDAToolkit.cmake:1009 (find_package)"
+      - "CMakeLists.txt:59 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-VVk3XC"
+      binary: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-VVk3XC"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "OFF"
+      CMAKE_CXX_FLAGS: " -D_GLIBCXX_USE_CXX11_ABI=0"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_ENABLE_EXPORTS: "ON"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/../Modules_CUDA_fix"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-VVk3XC
+        
+        Run Build Command(s):/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_22079/fast && /bin/gmake  -f CMakeFiles/cmTC_22079.dir/build.make CMakeFiles/cmTC_22079.dir/build
+        gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-VVk3XC'
+        Building CXX object CMakeFiles/cmTC_22079.dir/CheckFunctionExists.cxx.o
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++ -DcmTC_22079_EXPORTS  -D_GLIBCXX_USE_CXX11_ABI=0 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_22079.dir/CheckFunctionExists.cxx.o -c /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-VVk3XC/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_22079
+        /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22079.dir/link.txt --verbose=1
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++  -D_GLIBCXX_USE_CXX11_ABI=0 -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--export-dynamic -rdynamic CMakeFiles/cmTC_22079.dir/CheckFunctionExists.cxx.o -o cmTC_22079  -lpthreads 
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld: cannot find -lpthreads: No such file or directory
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_22079.dir/build.make:99: cmTC_22079] Error 1
+        gmake[1]: Leaving directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-VVk3XC'
+        gmake: *** [Makefile:127: cmTC_22079/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindCUDAToolkit.cmake:1009 (find_package)"
+      - "CMakeLists.txt:59 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-JazcfX"
+      binary: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-JazcfX"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "OFF"
+      CMAKE_CXX_FLAGS: " -D_GLIBCXX_USE_CXX11_ABI=0"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_ENABLE_EXPORTS: "ON"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/../Modules_CUDA_fix"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-JazcfX
+        
+        Run Build Command(s):/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_d28a8/fast && /bin/gmake  -f CMakeFiles/cmTC_d28a8.dir/build.make CMakeFiles/cmTC_d28a8.dir/build
+        gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-JazcfX'
+        Building CXX object CMakeFiles/cmTC_d28a8.dir/CheckFunctionExists.cxx.o
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++ -DcmTC_d28a8_EXPORTS  -D_GLIBCXX_USE_CXX11_ABI=0 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_d28a8.dir/CheckFunctionExists.cxx.o -c /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-JazcfX/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_d28a8
+        /home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d28a8.dir/link.txt --verbose=1
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++  -D_GLIBCXX_USE_CXX11_ABI=0 -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--export-dynamic -rdynamic CMakeFiles/cmTC_d28a8.dir/CheckFunctionExists.cxx.o -o cmTC_d28a8  -lpthread 
+        gmake[1]: Leaving directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeScratch/TryCompile-JazcfX'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/cuda.cmake:81 (try_run)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Caffe2Config.cmake:88 (include)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Torch/TorchConfig.cmake:68 (find_package)"
+      - "CMakeLists.txt:55 (find_package)"
+    directories:
+      source: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp"
+      binary: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_ENABLE_EXPORTS: "ON"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/../Modules_CUDA_fix"
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_96fdf/fast && /bin/gmake  -f CMakeFiles/cmTC_96fdf.dir/build.make CMakeFiles/cmTC_96fdf.dir/build
+        gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_96fdf.dir/detect_cuda_version.cc.o
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++ -DcmTC_96fdf_EXPORTS -I/home/zhaoj/miniconda3/envs/GPTQ/include  -o CMakeFiles/cmTC_96fdf.dir/detect_cuda_version.cc.o -c /home/zhaoj/Work/Fast-GPTQ/build/detect_cuda_version.cc
+        Linking CXX executable cmTC_96fdf
+        /home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96fdf.dir/link.txt --verbose=1
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++ -Wl,--export-dynamic -rdynamic CMakeFiles/cmTC_96fdf.dir/detect_cuda_version.cc.o -o cmTC_96fdf  -Wl,-rpath,/home/zhaoj/miniconda3/envs/GPTQ/lib /home/zhaoj/miniconda3/envs/GPTQ/lib/libcudart.so 
+        gmake[1]: Leaving directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "run_result"
+      cached: true
+      stdout: |
+        11.7
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake:106 (try_run)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake:166 (CUDA_DETECT_INSTALLED_GPUS)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/utils.cmake:401 (cuda_select_nvcc_arch_flags)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/cuda.cmake:362 (torch_cuda_get_nvcc_gencode_flag)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Caffe2Config.cmake:88 (include)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Torch/TorchConfig.cmake:68 (find_package)"
+      - "CMakeLists.txt:55 (find_package)"
+    directories:
+      source: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp"
+      binary: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: " --ptxas-options=-v"
+      CMAKE_CUDA_FLAGS_DEBUG: "-g"
+      CMAKE_ENABLE_EXPORTS: "ON"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/../Modules_CUDA_fix"
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_5e5b5/fast && /bin/gmake  -f CMakeFiles/cmTC_5e5b5.dir/build.make CMakeFiles/cmTC_5e5b5.dir/build
+        gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp'
+        Building CUDA object CMakeFiles/cmTC_5e5b5.dir/detect_cuda_compute_capabilities.cu.o
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/nvcc -forward-unknown-to-host-compiler -DcmTC_5e5b5_EXPORTS  --ptxas-options=-v  --generate-code=arch=compute_52,code=[compute_52,sm_52] -MD -MT CMakeFiles/cmTC_5e5b5.dir/detect_cuda_compute_capabilities.cu.o -MF CMakeFiles/cmTC_5e5b5.dir/detect_cuda_compute_capabilities.cu.o.d -x cu -c /home/zhaoj/Work/Fast-GPTQ/build/detect_cuda_compute_capabilities.cu -o CMakeFiles/cmTC_5e5b5.dir/detect_cuda_compute_capabilities.cu.o
+        gcc: No such file or directory
+        nvcc fatal   : Failed to preprocess host compiler properties.
+        gmake[1]: *** [CMakeFiles/cmTC_5e5b5.dir/build.make:79: CMakeFiles/cmTC_5e5b5.dir/detect_cuda_compute_capabilities.cu.o] Error 1
+        gmake[1]: Leaving directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_5e5b5/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/cuda.cmake:81 (try_run)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Caffe2Config.cmake:88 (include)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Torch/TorchConfig.cmake:68 (find_package)"
+      - "CMakeLists.txt:55 (find_package)"
+    directories:
+      source: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp"
+      binary: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_ENABLE_EXPORTS: "ON"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/../Modules_CUDA_fix"
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_03f87/fast && /bin/gmake  -f CMakeFiles/cmTC_03f87.dir/build.make CMakeFiles/cmTC_03f87.dir/build
+        gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_03f87.dir/detect_cuda_version.cc.o
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++ -DcmTC_03f87_EXPORTS -I/home/zhaoj/miniconda3/envs/GPTQ/include  -o CMakeFiles/cmTC_03f87.dir/detect_cuda_version.cc.o -c /home/zhaoj/Work/Fast-GPTQ/build/detect_cuda_version.cc
+        Linking CXX executable cmTC_03f87
+        /home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03f87.dir/link.txt --verbose=1
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/c++ -Wl,--export-dynamic -rdynamic CMakeFiles/cmTC_03f87.dir/detect_cuda_version.cc.o -o cmTC_03f87  -Wl,-rpath,/home/zhaoj/miniconda3/envs/GPTQ/lib /home/zhaoj/miniconda3/envs/GPTQ/lib/libcudart.so 
+        gmake[1]: Leaving directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "run_result"
+      cached: true
+      stdout: |
+        11.7
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake:106 (try_run)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake:166 (CUDA_DETECT_INSTALLED_GPUS)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/utils.cmake:401 (cuda_select_nvcc_arch_flags)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/cuda.cmake:362 (torch_cuda_get_nvcc_gencode_flag)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/Caffe2Config.cmake:88 (include)"
+      - "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Torch/TorchConfig.cmake:68 (find_package)"
+      - "CMakeLists.txt:55 (find_package)"
+    directories:
+      source: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp"
+      binary: "/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: " --ptxas-options=-v"
+      CMAKE_CUDA_FLAGS_DEBUG: "-g"
+      CMAKE_ENABLE_EXPORTS: "ON"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/zhaoj/miniconda3/envs/GPTQ/lib/python3.10/site-packages/torch/share/cmake/Caffe2/public/../Modules_CUDA_fix"
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: /home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/zhaoj/miniconda3/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_d6027/fast && /bin/gmake  -f CMakeFiles/cmTC_d6027.dir/build.make CMakeFiles/cmTC_d6027.dir/build
+        gmake[1]: Entering directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp'
+        Building CUDA object CMakeFiles/cmTC_d6027.dir/detect_cuda_compute_capabilities.cu.o
+        /home/zhaoj/miniconda3/envs/GPTQ/bin/nvcc -forward-unknown-to-host-compiler -DcmTC_d6027_EXPORTS  --ptxas-options=-v  --generate-code=arch=compute_52,code=[compute_52,sm_52] -MD -MT CMakeFiles/cmTC_d6027.dir/detect_cuda_compute_capabilities.cu.o -MF CMakeFiles/cmTC_d6027.dir/detect_cuda_compute_capabilities.cu.o.d -x cu -c /home/zhaoj/Work/Fast-GPTQ/build/detect_cuda_compute_capabilities.cu -o CMakeFiles/cmTC_d6027.dir/detect_cuda_compute_capabilities.cu.o
+        gcc: No such file or directory
+        nvcc fatal   : Failed to preprocess host compiler properties.
+        gmake[1]: *** [CMakeFiles/cmTC_d6027.dir/build.make:79: CMakeFiles/cmTC_d6027.dir/detect_cuda_compute_capabilities.cu.o] Error 1
+        gmake[1]: Leaving directory '/home/zhaoj/Work/Fast-GPTQ/build/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_d6027/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result"
+      cached: true
+...

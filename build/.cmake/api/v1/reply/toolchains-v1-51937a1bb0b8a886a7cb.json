@@ -1,0 +1,120 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "NVIDIA",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0/backward",
+						"/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include",
+						"/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/home/zhaoj/miniconda3/envs/GPTQ/lib/stubs",
+						"/home/zhaoj/miniconda3/envs/GPTQ/lib",
+						"/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0",
+						"/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/lib64",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/lib64",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/lib",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/lib",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/home/zhaoj/miniconda3/envs/GPTQ/bin/nvcc",
+				"version" : "11.7.64"
+			},
+			"language" : "CUDA",
+			"sourceFileExtensions" : 
+			[
+				"cu"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include/c++/11.2.0/backward",
+						"/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include",
+						"/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/include",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc/x86_64-conda-linux-gnu/11.2.0",
+						"/home/zhaoj/miniconda3/envs/GPTQ/lib/gcc",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/lib64",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/lib64",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib64",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/lib",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/lib",
+						"/home/zhaoj/miniconda3/envs/GPTQ/x86_64-conda-linux-gnu/sysroot/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/home/zhaoj/miniconda3/envs/GPTQ/bin/c++",
+				"version" : "11.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"m",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "test_cuda_kernel",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kernel_pybind::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kernel_pybind-Debug-eedd31f40f9e7f827a89.json",
+					"name" : "kernel_pybind",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_cuda_kernel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_cuda_kernel-Debug-ccfcd47dbd4183ae923f.json",
+					"name" : "test_cuda_kernel",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zhaoj/Work/Fast-GPTQ/build",
+		"source" : "/home/zhaoj/Work/Fast-GPTQ"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
